@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #99BC85;
+}
+header {
+    background-color: var(--primary);
+    
+}
+header ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+header ul li {
+    margin: 20px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+header a {
+    text-decoration: none;
+    color:var(--white);
+    
+}
+header li:hover {
+    transform: scale(1.05);
+    letter-spacing: 2px;
+}
+.heroSection .textSection{
+    position: absolute;
+    text-shadow: var(--black) 1px 1px 4px;
+    color: white;
+    font-size: 59px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 55px;
+}
+.heroSection img {
+    width: 100%;
+    height: 50vh;
+}
+.card {
+    width: 100%;
+    background-color:#E1F0DA;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.card h2 {
+    margin: 0px 180px;
+    line-height: 1.3;
+}
+.laVista{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+.centermall{
+    display: flex;
+   width: 10px;
+   flex-direction: row;
+}
